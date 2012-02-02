@@ -5,14 +5,23 @@ body {
 	padding: 10px 20px 10px 20px;
 }
 
+a {
+	color: #99F;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 body > header {
 	margin: 0px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	padding-bottom: 10px;
 	border-bottom: 6px solid #666;
 }
 
-body > header > h1 {
+body h1 {
 	margin: 0px;
 }
 
@@ -21,8 +30,20 @@ nav {
 	float: left;
 }
 
+nav ul {
+	padding-left: 0px;
+}
+
+nav li {
+	list-style-type: none;
+	padding-left: 0px;
+	text-indent: -1.5em;
+	margin-left: 1.5em;
+	padding-bottom: 0.25em;
+}
+
 section {
-	position: absolute;
+	position: relative;
 	margin-left: 240px;
 }
 
@@ -37,4 +58,12 @@ section {
 
 .slideshow img:first {
 	display: block;
+}
+
+footer {
+	clear: both;
+	border-top: 2px dashed #333;
+	color: #ccc;
+	margin-top: 30px;
+	padding-top: 10px;
 }
