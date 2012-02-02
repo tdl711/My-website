@@ -25,18 +25,18 @@ body h1 {
 	margin: 0px;
 }
 
+h2 {
+	margin-top: 1em;
+	border-bottom: 2px solid #666;
+}
+
 nav {
 	width: 200px;
 	float: left;
-}
-
-nav ul {
-	padding-left: 0px;
+	position: fixed;
 }
 
 nav li {
-	list-style-type: none;
-	padding-left: 0px;
 	text-indent: -1.5em;
 	margin-left: 1.5em;
 	padding-bottom: 0.25em;
@@ -61,9 +61,51 @@ section {
 }
 
 footer {
+	padding-top: 10px;
 	clear: both;
+}
+
+body > footer {
 	border-top: 2px dashed #333;
 	color: #ccc;
 	margin-top: 30px;
-	padding-top: 10px;
+}
+
+img.with-border {
+	border: 2px solid;
+}
+
+img.left {
+	float: left;
+	margin-right: 1em;
+}
+
+img.right {
+	float: right;
+	margin-left: 1em;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+li {
+	padding-left: 0px;
+	list-style-type: none;
+	padding-left: 0px;
+	padding-bottom: 0.5em;
+}
+
+ul.citations li {
+	text-indent: -1.5em;
+	margin-left: 1.5em;
+}
+
+#presentation-gallery div {
+	width: 200px;
+	float: left;
+	padding: 4px;
+	border: 1px solid #666;
+	margin-bottom: .5em;
+	margin-right: 0.5em;
 }
